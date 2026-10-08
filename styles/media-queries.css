@@ -11,6 +11,12 @@
         padding: 0px;
     }
 
+    #content h1 {
+        font-size: 3rem;
+        font-weight: normal;
+        line-height: 95%;
+    }
+
     #asset {
         height: 100%;
     }

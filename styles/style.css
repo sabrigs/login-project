@@ -37,8 +37,9 @@ main {
 #content h1 {
     margin-bottom: 16px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
+    line-height: 95%;
 }
 
 #content p {

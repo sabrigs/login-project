@@ -2,5 +2,116 @@
 
 :root {
     /* Colors */
-    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:focus-visible{
+    outline: 3px dashed black;
+    outline-offset: 2px;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+}
+
+#content {
+    padding: 24px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+#content h1 {
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+#content p {
+    line-height: 120%;
+    margin-bottom: 24px;
+    color: grey;
+}
+
+#content form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input {
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding-left: 16px;
+    font-size: 1rem;
+}
+
+.action-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.button {
+    cursor: pointer;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.button.primary {
+    background-color: #000;
+    color: white;
+}
+
+.button.secondary {
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.button.primary:hover {
+    background-color: #2c2c2c;
+}
+
+.button.secondary:hover {
+    background-color: #f2f2f2;
+}
+
+#asset {
+    height: 40vh;
+    width: 100%;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.56), transparent), url("/img/aftersun.jpg");
+    position: relative;
+    overlay: auto;
 }

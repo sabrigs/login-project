@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media (min-width: 1200px) {
+    main {
+        flex-direction: row;
+        padding: 24px 48px 24px 24px;
+        gap: 48px;
+    }
+
+    #content {
+        padding: 0px;
+    }
+
+    #asset {
+        height: 100%;
+    }
+}
